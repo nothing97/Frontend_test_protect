@@ -1,0 +1,346 @@
+.toggler {
+    position: relative;
+    top: 0px;
+    left: 586px;
+}
+
+div#test{width: 43% ! important;
+    left: 0px;
+    top: 51px;
+}
+
+input.form-control.col-md-6 {
+    border-radius: 20px; outline: none;
+}
+
+    * {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px; font-weight: bold;
+    padding: 10px;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+a{color: white; text-decoration: none;}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 20px 0px;
+    height: 100%;
+}
+
+#Home {background-color: #68bec5;}
+#News {background-color: #68bec5;}
+#Contact {background-color: #68bec5;}
+
+div.tab_protect{
+	border: 1px solid lightgray;
+    padding: 5px;
+}
+
+th {
+    background: #3e8056; text-align: center;
+}
+
+td{background: #a25014}
+
+.jumbotron.col-md-12 {
+    padding: 3px 0px 5px 0px;
+    margin-bottom: 0px;
+}
+
+span.chart{
+	color: #c31010; font-weight: bold;
+}
+
+img.logo {border-radius: 50px; max-width: 100% }
+img{max-width: 100%;}
+span.slogan{font-weight: bold;
+	position: relative;
+    top: 20px;
+}
+
+div.print_report{
+	margin-top: 10px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media(max-width: 414px){
+	#Home {
+    margin-top: 128px;
+	}
+
+	div.tab_protect {
+    margin-top: 20px;
+	}
+
+	.toggler {
+    position: relative;
+    left: 154px;
+	}
+}
+
+button.btn_search {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: -32px;
+    border: 1px solid darkseagreen;
+}
+
+.fa.fa-search{color: black; cursor: pointer;}
+span.place{font-size: 20px}
+a.view_more{font-size: 14px}
+
+.fa-search:before {
+    position: relative;
+    top: -27px;
+    left: 255px;
+}
+
+span.num_cam {
+    color: #ce0c0c;
+}
+
+/*css cho tab con trong item xem theo tỉnh, khu vực*/
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #e85f5f;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 20px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+ul.nav.nav-tabs {
+    margin-top: 10px;
+    border: 1px solid #8e8c8c;
+    background: #2d5656;
+    border-radius: 5px;
+}
+
+.cont_tabSub{
+    border: 1px solid #717bbf;
+}
+
+
+div#tinh {
+    background: #d28c0b;
+    color: black;    
+    padding: 18px 0px 6px 0px;
+    margin: 0px 0px 0px -15px;
+}
+
+.tree.tree-folder-select, .tree-branch-children{
+  list-style-type: none;
+}
+
+.chart_place{font-weight: bold;font-size: 15px}
+
+div#Home, div.sub_tab {
+    padding-top: 20px;
+}
+
+/*css cho modal*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-dialog {
+    width: 1000px;
+    margin: -50px auto;
+}
+
+.modal-title {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button.close{
+  opacity:1; 
+  color: #f50707;
+  font-size: 40px;
+}
+
+.modal-header {
+    padding: 0px;
+}
+
+i.fas.fa-times-circle {
+    position: relative;
+    left: 31px;
+    top: -29px;
+    color: #e82323;
+    outline: none;
+}
+
+i.fab.fa-fort-awesome {
+    color: blue;
+    font-size: 23px;
+}
+
+.col-md-12.so_CMR {
+    padding: 5px 0px 10px 14px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.toggler {
+    background: royalblue;
+    color: white;
+    font-size: 17px;
+}
+
+.modal-body.modules {
+    background: #139069;
+}
+
+a.tab_module {
+    font-weight: bold;
+}
+
+center.data_update {
+    background: #f92828;
+    padding: 5px 0px 5px 0px;
+    margin-top: 20px;
+}
+
+p.warning {
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #131212;
+}
+
+p.warning_rain{
+    font-size: 17px;
+    font-weight: bold;
+    color: #131212;
+}
+
+span.glyphicon.icon-folder.glyphicon-folder-close {
+    color: #b58a0d;
+}
+
+button.glyphicon.icon-caret.glyphicon-play {
+    color: #da0d0d;
+}
+
+i.fa.fa-search.search {
+    position: relative;
+    left: 235px;
+}
+
+.panel-heading.num_view_lake {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form_modules{
+  height: 25px;
+  margin-top: 10px;
+}
+
+label.col-md-6.tit_modules {
+    padding-top: 10px;
+}
